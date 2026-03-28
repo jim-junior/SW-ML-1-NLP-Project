@@ -16,7 +16,7 @@
 
 **Application API Docker Image**: `jimjuniorb/cmva`
 
-**Application UI Endpoint**: TODO
+**Application UI Endpoint**: [https://cmva.open.ug](https://cmva.open.ug)
 
 ### Team Members
 
