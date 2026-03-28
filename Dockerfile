@@ -45,8 +45,8 @@ RUN python3 -m venv /opt/venv && \
 
 # ── 5. Application source ─────────────────────────────────────────────────────
 # Copy both files — main.py is the FastAPI entrypoint, model.py holds ML logic
-COPY main.py /app/main.py
-COPY model.py /app/model.py
+COPY api/main.py /app/main.py
+COPY api/model.py /app/model.py
 
 # ── 6. Entrypoint ────────────────────────────────────────────────────────────
 COPY entrypoint.sh /entrypoint.sh
