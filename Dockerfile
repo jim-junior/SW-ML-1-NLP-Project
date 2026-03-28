@@ -1,6 +1,6 @@
 # ── Base: CUDA 12.4 runtime on Ubuntu 24.04 (Noble) ─────────────────────────
 # cuda 13.x does not exist; 12.4.1 is the latest stable release
-FROM nvidia/cuda:12.4.1-cudnn-runtime-ubuntu24.04
+FROM nvidia/cuda:13.0.1-cudnn-runtime-ubuntu24.04
 
 ENV DEBIAN_FRONTEND=noninteractive \
   PYTHONUNBUFFERED=1 \
