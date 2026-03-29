@@ -5,7 +5,7 @@
 import { useState, useRef, useEffect, useCallback } from "react";
 import "./App.css";
 
-const DEFAULT_API_BASE = "http://localhost:8000";
+const DEFAULT_API_BASE = "https://cmva-777350106407.europe-west1.run.app";
 const LS_KEY = "cocis_api_base";
 
 function loadApiBase() {
