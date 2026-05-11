@@ -1,0 +1,22 @@
+requests 
+beautifulsoup4 
+readability-lxml  
+
+
+fastapi
+uvicorn[standard]
+pydantic
+
+
+# ML / NLP
+torch
+transformers
+sentence-transformers
+datasets
+faiss-cpu       # use faiss-gpu if you have a CUDA GPU
+accelerate
+sentencepiece    # required by NLLB tokenizer
+protobuf        # required by sentencepiece
+
+# Utilities
+numpy
